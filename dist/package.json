@@ -1,6 +1,6 @@
 {
   "name": "bb2s-image-upload",
-  "version": "1.0.2-rc.1",
+  "version": "1.0.3-rc.1",
   "description": "An angular component that uploads images using native browser upload or drag-n-drop.",
   "repository": {
     "type": "git",
