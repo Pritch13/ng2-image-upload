@@ -25,13 +25,16 @@
             [ngStyle]="style?.clearButton"
             [innerText]="clearButtonCaption">
     </button>
-    <input class="img-ul-drag-box-msg"
-           [disabled]="disabled"
-           [accept]="supportedExtensions"
-           [multiple]="max > 1"
-           (change)="onFileChange(input.files)"
-           #input
-           [innerText]="dropBoxMessage">
+    <label *ngIf="fileCounter != max"
+           class="img-ul-drag-box-msg">
+      <span [innerText]="dropBoxMessage"></span>
+      <input type="file"
+             [disabled]="disabled"
+             [accept]="supportedExtensions"
+             [multiple]="max > 1"
+             (change)="onFileChange(input.files)"
+             #input>
+    </label>
   </div>
 
   <p class="img-ul-file-too-large"
