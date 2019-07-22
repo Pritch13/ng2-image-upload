@@ -46,7 +46,6 @@ label.img-ul-button input[type=file] {
 }
 
 .img-ul-upload {
-  color: red !important;
     background-color: var(--active-color);
 }
 
