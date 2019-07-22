@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { UploadMetadata } from 'angular2-image-upload';
+import { UploadMetadata } from 'bb2s-image-upload';
 
 @Component({
   selector: 'filter',

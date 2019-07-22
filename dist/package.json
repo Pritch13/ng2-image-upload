@@ -1,6 +1,6 @@
 {
   "name": "bb2s-image-upload",
-  "version": "1.0.1-rc.1",
+  "version": "1.0.2-rc.1",
   "description": "An angular component that uploads images using native browser upload or drag-n-drop.",
   "repository": {
     "type": "git",
@@ -30,15 +30,15 @@
     "@angular/core": "^6.0.0 || ^7.0.0",
     "rxjs": "^6.0.0"
   },
-  "main": "bundles/angular2-image-upload.umd.js",
-  "module": "fesm5/angular2-image-upload.js",
-  "es2015": "fesm2015/angular2-image-upload.js",
-  "esm5": "esm5/angular2-image-upload.js",
-  "esm2015": "esm2015/angular2-image-upload.js",
-  "fesm5": "fesm5/angular2-image-upload.js",
-  "fesm2015": "fesm2015/angular2-image-upload.js",
-  "typings": "angular2-image-upload.d.ts",
-  "metadata": "angular2-image-upload.metadata.json",
+  "main": "bundles/bb2s-image-upload.umd.js",
+  "module": "fesm5/bb2s-image-upload.js",
+  "es2015": "fesm2015/bb2s-image-upload.js",
+  "esm5": "esm5/bb2s-image-upload.js",
+  "esm2015": "esm2015/bb2s-image-upload.js",
+  "fesm5": "fesm5/bb2s-image-upload.js",
+  "fesm2015": "fesm2015/bb2s-image-upload.js",
+  "typings": "bb2s-image-upload.d.ts",
+  "metadata": "bb2s-image-upload.metadata.json",
   "sideEffects": false,
   "dependencies": {
     "tslib": "^1.9.0"

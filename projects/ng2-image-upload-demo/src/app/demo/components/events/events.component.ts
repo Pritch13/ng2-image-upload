@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FileHolder } from 'angular2-image-upload';
+import { FileHolder } from 'bb2s-image-upload';
 
 @Component({
   selector: 'events',

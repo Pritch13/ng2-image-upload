@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ImageUploadModule } from 'angular2-image-upload';
+import { ImageUploadModule } from 'bb2s-image-upload';
 
 import { BasicExampleComponent } from './components/basic/basic.component';
 import { CustomiseComponent } from './components/customise/customise.component';

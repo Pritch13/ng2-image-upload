@@ -5,7 +5,7 @@
      [ngClass]="cssClass"
      [ngClass]="{'img-ul-file-is-over': fileOver}"
      [ngStyle]="style?.layout">
-  <div class="img-ul-file-upload img-ul-hr-inline-group">
+  <!-- <div class="img-ul-file-upload img-ul-hr-inline-group">
     <label *ngIf="fileCounter != max"
            class="img-ul-upload img-ul-button"
            [ngStyle]="style?.selectButton"
@@ -38,7 +38,7 @@
          class="img-ul-drag-box-msg"
          [innerText]="dropBoxMessage"></div>
 
-  </div>
+  </div> -->
   <p class="img-ul-file-too-large"
      *ngIf="showFileTooLargeMessage"
      [innerText]="fileTooLargeMessage"></p>
